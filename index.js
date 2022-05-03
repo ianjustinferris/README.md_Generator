@@ -185,7 +185,7 @@ ${answers.usage}
 
 ## Screen_Shot
 
-${![screen_shot](answers.screenShot)}
+![screen_shot](${answers.screenShot})
 
 ## Credits
 
