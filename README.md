@@ -1,10 +1,10 @@
 
 
-# <h1 align="center">  testing center function <h1>
+# <h1 align="center">  README.md CL Generator <h1>
 
 ## Description
 
-adsgasd
+Using Node.js and the npm inquirer package, this application dynamically generates a unique README.md file from the command line. 
 
 ## Table of Contents 
 
@@ -18,31 +18,31 @@ adsgasd
 
 ## Deployed_Link
 
-asdgasdg
+N/A
 
 ## Installation
 
-asdasdg
+User must download the npm inquirer package from the npm website. Once installation is complete, the application can be executed from the command line using the 'Node index.js' command.
 
 ## Usage
 
-asddgas
+User may easily generate a README.md file so that more focus can be given to the project itself. 
 
 ## Screen_Shot
 
-asdgasd
+N/A
 
 ## Credits
 
-asdsdga
+Ian Ferris https://github.com/ianjustinferris
 
 ## License
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
-
+https://opensource.org/licenses/MIT
 
 ## Questions
 
-asdg
+ianjustinferris@gmail.com
 
