@@ -1,0 +1,23 @@
+{
+  "name": "readme.md_generator",
+  "version": "1.0.0",
+  "description": "A command line tool used to generate README.md files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianjustinferris/README.md_Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianjustinferris/README.md_Generator/issues"
+  },
+  "homepage": "https://github.com/ianjustinferris/README.md_Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
