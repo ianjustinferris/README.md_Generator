@@ -1,34 +1,34 @@
 
 
-# README.md CL Generator
+<p align="center"> # README.md CL Generator <p>
 
 ## Description
 
-Using the npm Inquirer package, this application allows the user to easily generate a README.md file from the command line.
+Using Node.js and the npm inquirer package, this application dynamically generates a unique README.md file from the command line.
 
 ## Table of Contents 
 
+- [Deployed_Link](#Deployed_Link)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Deployed Link](#Deployed Link)
-- [Interface](#Interface)
+- [Screen_Shot](#Screen_Shot)
 - [Credits](#Credits)
 - [License](#License)
 - [Questions](#Questions)
 
-## Installation
-
-User must download the Inuirer package from npm 
-
-## Usage
-
-Once installation is complete, the user can run the application from the terminal using 'Node index.js' and answer the prompts.
-
-## Deployed Link
+## Deployed_Link
 
 N/A
 
-## Interface
+## Installation
+
+User must download the inquirer package from the npm website. Once installation is complete, the application can be executed from the command line using the 'Node index.js' command.
+
+## Usage
+
+User may easily generate a README.md file so that more time can be spent focusing on the project itself. 
+
+## Screen_Shot
 
 N/A
 

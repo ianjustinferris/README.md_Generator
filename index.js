@@ -155,7 +155,7 @@ function renderLicenseLink(license) {
 function generateMarkdown(answers) {
   readMe = `
 
-# ${answers.projectTitle}
+<p align="center"> # ${answers.projectTitle} <p>
 
 ## Description
 
@@ -163,13 +163,17 @@ ${answers.description}
 
 ## Table of Contents 
 
+- [Deployed_Link](#Deployed_Link)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Deployed Link](#Deployed Link)
-- [Interface](#Interface)
+- [Screen_Shot](#Screen_Shot)
 - [Credits](#Credits)
 - [License](#License)
 - [Questions](#Questions)
+
+## Deployed_Link
+
+${answers.link}
 
 ## Installation
 
@@ -179,11 +183,7 @@ ${answers.installation}
 
 ${answers.usage}
 
-## Deployed Link
-
-${answers.link}
-
-## Interface
+## Screen_Shot
 
 ${answers.screenShot}
 
