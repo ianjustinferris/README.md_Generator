@@ -8,6 +8,8 @@ var licenseBadge
 
 var licenseLink
 
+var readMe
+
 const questions = [
 
 {
@@ -70,13 +72,21 @@ const questions = [
 inquirer
   .prompt(questions)
   .then((answers) => {
+
     console.log(JSON.stringify(answers, null, '  '));
+
     console.log(JSON.stringify(answers.license, null, '  '));
+
     renderLicenseBadge(answers.license)
+
     console.log(licenseBadge)
+
     renderLicenseLink(answers.license) 
+
     console.log(licenseLink)
-    fs.writeFile('README.md', generateMarkdown(answers))
+
+    fs.writeFileSync('README.md', generateMarkdown(answers))
+
   })
   .catch((error) => {
     if (error.isTtyError) {
@@ -142,7 +152,8 @@ function renderLicenseLink(license) {
   }
 }
 
-function generateMarkdown(answers) {`
+function generateMarkdown(answers) {
+  readMe = `
 
 # ${answers.projectTitle}
 
@@ -191,6 +202,8 @@ ${licenseLink}
 ${answers.questions}
 
 `;
+
+return readMe;
 }
 
 
