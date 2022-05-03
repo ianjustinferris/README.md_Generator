@@ -4,7 +4,7 @@
 
 ## Description
 
-Using Node.js and the npm inquirer package, this application dynamically generates a unique README.md file from the command line. 
+Using Node.js nad the npm inquirer package, this application dynamically generates a unique README.md file from the command line. 
 
 ## Table of Contents 
 
@@ -18,11 +18,11 @@ Using Node.js and the npm inquirer package, this application dynamically generat
 
 ## Deployed_Link
 
-N/A
+https://watch.screencastify.com/v/HQxhx92ZKNymthfOLwdE
 
 ## Installation
 
-User must download the npm inquirer package from the npm website. Once installation is complete, the application can be executed from the command line using the 'Node index.js' command.
+User must download the npm inquirer package from the npm website. Once installation is complete, the application can be executed from the command line using 'Node index.js' command. 
 
 ## Usage
 
@@ -30,7 +30,7 @@ User may easily generate a README.md file so that more focus can be given to the
 
 ## Screen_Shot
 
-N/A
+./Assets/README.md_Generator.png
 
 ## Credits
 
