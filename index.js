@@ -76,7 +76,7 @@ inquirer
     console.log(licenseBadge)
     renderLicenseLink(answers.license) 
     console.log(licenseLink)
-    fs.writeFile('README.md', generateMarkdown(answers) )
+    fs.writeFile('README.md', generateMarkdown(answers))
   })
   .catch((error) => {
     if (error.isTtyError) {
@@ -152,7 +152,7 @@ ${answers.description}
 
 ## Table of Contents 
 
-- [Installation](#installation)
+- [Installation](#Installation)
 - [Usage](#Usage)
 - [Deployed Link](#Deployed Link)
 - [Interface](#Interface)
@@ -182,9 +182,9 @@ ${answers.credits}
 
 ## License
 
-${answers.licenseBadge}
+${licenseBadge}
 
-${answers.licenseLink}
+${licenseLink}
 
 ## Questions
 
